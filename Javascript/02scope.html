@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // scope { //block of code }
+
+      //global scope
+      var a=100;// global variable
+      let b=200;// global variable
+      const c=500;//global variable
+
+      console.log(a)//100
+      console.log(b)//200
+      console.log(c)//500
+        {
+            console.log(a)//100
+            console.log(b)//200
+            console.log(c)//500
+        }
+        console.log(a)//100
+        console.log(b)//200
+        console.log(c)//500
+
+
+        {
+            console.log(a)//100
+            console.log(b)//200
+            console.log(c)//500
+        }
+
+            // var keyword >> global scope || functional scope
+            var a1=20;
+            console.log(a1)//global
+                {   
+                    var b1=40;//local 
+                    console.log(a1)//20
+                    console.log(b1)//40
+                    {
+                        {
+                            {
+                                console.log(b1)//40
+                            }
+                        }
+                    }
+                }  
+                console.log(a1)//20
+                console.log(b1)//40          
+
+            //let keyword
+
+
+            //const keyword
+    </script>
+</body>
+</html>
