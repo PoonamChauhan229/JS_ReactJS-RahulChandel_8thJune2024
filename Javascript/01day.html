@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        // var let const  = assignment
+
+        // var > declare+ assign || redeclared n n no of times || update n no of times
+        var a=10;
+        console.log(a)//10
+
+        a=20;
+        console.log(20)//20
+
+        a=50;
+        console.log(a)//50
+
+        var a=100;
+        console.log(a)//100
+
+        var a=200;
+        console.log(200)//200
+
+        a=300;
+        console.log(a)
+
+
+        console.log(b)//undefined >> hoisting || only var keyword is hoisted
+        var b=20;
+
+
+        // let > declare+assign once || update-reassign n no of times
+        let c=3;
+        console.log(c)
+
+        c=24;
+        console.log(c)
+
+        c=26;
+        console.log(c)
+
+        // let c=35;
+        console.log(c)//Identifier 'c' has already been declared
+
+        c=78;
+        console.log(c)//78
+
+        // const  >> declare+asiign only 1nce
+        const d=90;
+        console.log(d)
+
+       // d=100;
+        console.log(d)//01day.html:57 Uncaught TypeError: Assignment to constant variable.
+
+        //const d=45;
+        console.log(d)//Uncaught SyntaxError: Identifier 'd' has already been declared
+
+        var a1;
+        a1=56;
+
+        let b1;
+        b1=65;
+
+        const c1;//Error?
+        c1=95
+
+    </script>
+</body>
+</html>

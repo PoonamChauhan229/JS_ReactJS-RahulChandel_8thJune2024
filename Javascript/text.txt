@@ -1,0 +1,18 @@
+var let const   
+
+scope
+
+datatypes
+
+
+3 ways
+
+internal > before head tag
+         > before closing of closing tag✅✅
+
+external
+
+
+ES5 ES6
+
+JS executes line by line 
