@@ -28,3 +28,9 @@ Lifecycle COMPONENT  >> MANAGE >>
 folder structure >> 
 
 vite >> use 
+
+JSX
+JAVASCRIPT XML
+js HTML
+{} >>
+
