@@ -1,0 +1,30 @@
+REACT ?? NEED
+
+HTML CSS JS  >> WEBSITE  >>REPITIVE
+    >> PRCOSESSING SLOW 
+    JS>> DOM >>Document Object Model >>DOM MANIPULATION
+        >> COSTLY >> PRCOSESSING SLOW 
+
+HTML CSS JS >> FULL PAGE RELOAD >> SLOW
+
+
+FACEBOOK >> REACT
+REACT
+>>SPA 
+>>VIRTUAL DOM >> DOM MANIPULATION  >>DIRECT 
+>>COMPONENT STRUCTURE 
+>>COMMUNITY
+
+2011 >>launch
+2013 >>public release >> 2013-2017 >> Class >>OOPS >>Difficult to learn
+2018 >>hooks
+>>COMPONENTS >>
+>>STATEFUL  >>CLASS COMPONENT
+>>STATELESS >>FUNCTIONAL COMPONENT  >> 2018 >>HOOKS >>FUNCTIONAL COMPONENT
+
+
+Lifecycle COMPONENT  >> MANAGE >> 
+
+folder structure >> 
+
+vite >> use 
