@@ -1,4 +1,5 @@
 import './App.css'
+import Profile from './components/profile'
 
 function App() {
   return (
@@ -11,21 +12,29 @@ function App() {
     profile links
   */}
 
-   <div className='profileContainer'> 
-      <img src='https://cdn-icons-png.flaticon.com/512/3135/3135715.png' alt="" height='100' width='100'/>
-        <div>Rahul C</div>
-        <div>Frontend Developer</div>
-         {/* icons */}
-         {/* window key + . */}
-        <div>⚠🌐🈯Ⓜ🆒🆖</div> 
-   </div>
 
+<div className='container'>
+  {/* Properties */}
+  {/* Props Passing >> Render dynamically  */}
+  {/* loops >> map method */}
+<Profile name="Rohit C" designation="Frontend Developer" />
+<Profile name="Shraddha C" designation="System Enginner"/>
+<Profile name="Azad" designation="Civil Engineer"/>
+<Profile name="Archana" designation="Backend Developer"/>
+<Profile/>
+<Profile/>
+<Profile/>
+<Profile/>
+<Profile/>
+</div>
 
-    {console.log('Hello World')} 
-    <h1>Hello World</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi accusantium omnis, dignissimos autem distinctio voluptatem placeat a iste sint obcaecati molestiae, quas, nulla neque dolorum sapiente maxime. At maiores iusto quia voluptate similique, corrupti molestias quas numquam dignissimos sequi dolores ducimus maxime ratione dolorem autem. Explicabo, incidunt cupiditate. Dicta, tempore? Labore consequuntur provident repudiandae, ratione omnis expedita delectus. Pariatur cumque quasi temporibus perspiciatis. Quia, molestias voluptate delectus atque, sed culpa maiores dolorem, architecto vero quisquam dolorum voluptates quis perferendis. Quo nam corrupti cum soluta maxime ipsa aut nostrum sapiente dolor numquam! Voluptas amet quaerat ut, saepe repellendus nulla et natus?</p>
+   
   </>
   )
 }
 
+// Messages >> 2 message >> WhatsApp >> 1 message left >> 1 message right
+
 export default App
+
+// ProfileDynamic
